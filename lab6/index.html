@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <form class="form">
+    <form id="myform" class="form" onsubmit="myFunction()">
         <label for="name">Name : </label>
         <input type="text" id="name" name="name">
 
@@ -64,7 +64,7 @@
         <label for="pincode">Pincode : </label>
         <input type="number" id="pincode" name="pincode">
         
-        <input type="submit" value="Submit" id="submit" onclick="submit()">
+        <input type="submit" value="Submit" id="submit">
         <input type="reset" value="Reset">
     </form>
     <script src="script.js"></script>
